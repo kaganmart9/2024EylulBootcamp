@@ -10,6 +10,8 @@
     <table border>
       <!-- Border attribute yerine CSS kullanılmalı -->
       <tr>
+        <!--rowspan = sütunu yayan attribute-->
+        <td rowspan="4">Türkiye</td>
         <!-- table row = tr tagı -->
         <th>Şehir</th>
         <!-- table heading = th tagı -->
@@ -36,6 +38,41 @@
         <td>Yaprak Sarması</td>
         <td>Karadeniz</td>
       </tr>
+    </table>
+
+    <h2>Filmler</h2>
+    <table border>
+      <thead>
+        <!-- table head tagı-->
+        <tr>
+          <th>Film Adı</th>
+          <th>Yıl</th>
+          <th>Puan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- table body tagı -->
+        <tr>
+          <td>Scarface</td>
+          <td>2011</td>
+          <td>8.3/10</td>
+        </tr>
+        <tr>
+          <td>Eşkiya</td>
+          <td>1996</td>
+          <td>8.1/10</td>
+        </tr>
+        <tr>
+          <td>The Dark Knight</td>
+          <td>2008</td>
+          <td>9.0/10</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <!--colspan = satırı yayan attribute-->
+        <th colspan="2">Ortalama Puan</th>
+        <th>8.46/10</th>
+      </tfoot>
     </table>
   </body>
 </html>
