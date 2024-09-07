@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- HTML5 belgesi olduğunu belirtir -->
+<html lang="en">
+  <!-- Belgenin dilini İngilizce olarak ayarlar -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Belgenin karakter setini UTF-8 olarak ayarlar -->
+    <title>device-width deneme</title>
+    <!-- Tarayıcı sekmesinde görünecek başlık -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Mobil cihazlarda düzgün görüntülenmesi için viewport ayarları -->
+  </head>
+
+  <body>
+    <button onclick="alert('bana tıklama bi daha')">BEN BİR BUTONUM</button>
+    <!-- Butona tıklandığında bir uyarı mesajı gösterir -->
+    <p contenteditable="true">
+      Lütfen bu paragrafın içeriğini değiştirmeye çalışın (contenteditable)
+    </p>
+    <!-- Kullanıcının içeriği düzenleyebileceği bir paragraf -->
+    <img src="agac.svg" alt="ağaç" width="100" />
+    <!-- 100 piksel genişliğinde bir ağaç resmi -->
+    <h1>Bu Bir Başlıktır</h1>
+    <!-- Başlık 1: Bu Bir Başlıktır -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil
+      sint consequuntur animi eaque, numquam corrupti hic illum asperiores
+      laborum alias, ab molestiae temporibus expedita fuga nemo magni dolorem
+      at?
+    </p>
+    <!-- Örnek paragraf metni -->
+    <p>
+      Praesentium harum iste quo ab accusantium quibusdam culpa. At sequi maxime
+      laudantium minima odio! Iusto saepe voluptate modi dolore a molestias quis
+      eos? Ipsum vel, ea sint libero cum quae?
+    </p>
+    <!-- Örnek paragraf metni -->
+    <p>
+      Exercitationem, in temporibus? Veniam nostrum, repudiandae ipsam facilis
+      distinctio accusantium in itaque laudantium laborum, natus numquam? In
+      amet est cupiditate, molestias tempore nihil voluptates fuga sint dolor
+      omnis maxime ipsa.
+    </p>
+    <!-- Örnek paragraf metni -->
+
+    <form action="gonder.html">
+      <!-- Form verilerini gonder.html dosyasına gönderir -->
+      <p>
+        Askerlik yaptınız mı?
+        <label>
+          <input type="radio" name="askerlik" value="yes" /> Evet
+          <!-- Evet seçeneği -->
+        </label>
+        <label>
+          <input type="radio" name="askerlik" value="no" /> Hayır
+          <!-- Hayır seçeneği -->
+        </label>
+      </p>
+      <p>
+        Hobileriniz<br />
+        <label
+          ><input type="checkbox" name="hobi" value="swimming" /> Yüzmek</label
+        ><br />
+        <!-- Yüzmek seçeneği -->
+        <label><input type="checkbox" name="hobi" value="running" /> Koşu</label
+        ><br />
+        <!-- Koşu seçeneği -->
+        <label><input type="checkbox" name="hobi" value="tennis" /> Tenis</label
+        ><br />
+        <!-- Tenis seçeneği -->
+        <label><input type="checkbox" name="hobi" value="music" /> Müzik</label
+        ><br />
+        <!-- Müzik seçeneği -->
+        <label
+          ><input type="checkbox" name="hobi" value="cinema" /> Sinema</label
+        ><br />
+        <!-- Sinema seçeneği -->
+      </p>
+      <p>
+        <label for="sehir">Doğduğunuz Yer</label>
+        <select name="city" id="sehir">
+          <!-- Şehir seçimi için açılır menü -->
+          <option value="1">Adana</option>
+          <!-- Adana seçeneği -->
+          <option value="6">Ankara</option>
+          <!-- Ankara seçeneği -->
+          <option value="34">İstanbul</option>
+          <!-- İstanbul seçeneği -->
+          <option value="35">İzmir</option>
+          <!-- İzmir seçeneği -->
+        </select>
+      </p>
+
+      <p>
+        <label for="ad">Adınız</label>
+        <input type="text" required />
+        <!-- Adınızı girebileceğiniz zorunlu alan -->
+      </p>
+
+      <button>Gönder</button>
+      <!-- Formu göndermek için buton -->
+    </form>
+
+    <h2>HABERLER</h2>
+    <!-- Başlık 2: HABERLER -->
+    <iframe
+      src="https://haber.com"
+      width="300"
+      height="400"
+      frameborder="1"
+    ></iframe>
+    <!-- Başka bir web sayfasını gömülü olarak gösterir -->
+  </body>
+</html>
