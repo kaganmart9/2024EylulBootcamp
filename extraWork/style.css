@@ -1,0 +1,14 @@
+.aciklama {
+    color: rgb(255, 0, 0);
+    background-color: aliceblue;
+}
+blockquote{
+    background-color: bisque;
+}
+q{
+    background-color: aquamarine;
+}
+abbr{
+    background-color: blueviolet;
+    color: white;
+}
