@@ -15,7 +15,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Introduction to HTML
 - Basic HTML structure
 - Added an image to the site using HTML.
-- HTML tags : <a>, <p>, <h>, <img>, <br>, <hr>
+- HTML tags : a, p, h, img, br, hr
 
 ## Day 2
 
@@ -24,7 +24,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Unordered and Ordered lists in HTML
 - Description Lists in HTML
 - Tables in HTML
-- HTML tags : <span>, <strong>, <sub>, <sup>, <em>, <li>, <ul>, <ol>, <dl>, <dt>, <dd>, <tr>, <td>, <table>, <th>, <thead>, <tbody>, <tfoot>
+- HTML tags : span, strong, sub, sup, em, li, ul, ol, dl, dt, dd, tr, td, table, th, thead, tbody, tfoot
 
 ## Day 3
 
@@ -33,12 +33,12 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Forms in HTML
 - Anchor Links
 - Basic Search Engine Cloning
-- HTML tags : <label>, <form>, <button>, <textarea>, <input>
-
+- HTML tags : label, form, button, textarea, input
+- 
 ## Day 4
 
 **Concepts Learned:**
 - SVGs
 - Frames in HTML
 - Preformatted Texts
-- HTML tags : <pre>, <link>, <svg>, <path>, <option>, <select>, <iframe>
+- HTML tags : pre, link, svg, path, option, select, iframe
