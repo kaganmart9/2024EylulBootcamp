@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kütahya</title>
+    <style>
+      /* element selector */
+      h1 {
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+      }
+      /* class selector */
+      .favori {
+        border-left: 5px solid #007aff;
+      }
+      /* id selector */
+      #memleket {
+        color: rgb(114, 114, 16);
+        font-style: italic;
+      }
+      /*dalgasına*/
+      #memleket::after {
+        content: "(OTOPARK)";
+        font-weight: bold;
+      }
+      /* immediate child selector */
+      div > p {
+        margin: 0 70px;
+        text-align: justify;
+        font-size: 90%;
+      }
+      /*  bu selector divdeki tüm p'leri etkiler.*/
+      div p {
+        font-family: "Comic Sans MS";
+      }
+      /*group selectors*/
+      h3,
+      h2 {
+        background-color: rgb(11, 23, 147);
+        color: yellow;
+        text-align: center;
+        letter-spacing: 2px;
+      }
+      /* attribute selector*/
+      [title] {
+        color: rgb(11, 23, 147);
+      }
+      li[title] {
+        background-color: bisque;
+        font-style: italic;
+        font-weight: bold;
+      }
+      h2 + p {
+        text-indent: 50px;
+      }
+      /*çift tek seçer*/
+      li:nth-child(odd) {
+        background-color: rgb(172, 211, 245);
+      }
+      /* sadece 6.cı çocuk nasıl seçilir*/
+      li:nth-child(6) {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-style: italic;
+        font-family: arial;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px crimson;
+        color: rgb(39, 35, 78);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 title="Başkenti Ankara'dır">Türkiye</h1>
+    <h2>Kütahya</h2>
+    <p>
+      Kütahya, Ege Bölgesi’nde yer alan ve çini sanatının merkezi olarak bilinen
+      tarihi bir şehirdir. Kütahya Kalesi, Germiyan Sokağı ve Frig Vadileri gibi
+      önemli turistik yerlere ev sahipliği yapar. Ayrıca, Osmanlı döneminden
+      kalma eserler ve doğal güzellikler ile zengin bir kültürel mirasa
+      sahiptir. Şehir, termal suları ve kaplıcaları ile de ünlüdür12. Kütahya,
+      tarih ve doğa tutkunları için ideal bir destinasyondur.
+    </p>
+    <p>
+      Kütahya, dünyada sadece burada yetişen Ehrami karaçamlarıyla ünlüdür. Bu
+      nadir çam türü, özellikle Vakıf Ormanı'nda yoğun olarak bulunur ve
+      yaklaşık 292.5 hektarlık bir alanı kaplar¹. Ayrıca, Kütahya'nın termal
+      suları ve kaplıcaları sağlık turizmi açısından büyük önem taşır².
+    </p>
+    <div>
+      <p>
+        Kütahya, antik adı Kotiaeion olan, Frigler'in ilk yerleştiği, termal
+        kaynakları ve çinileriyle ünlü bir şehirdir.
+      </p>
+      <section>
+        <p>
+          Kütahya <span title="Beyaz, dayanıklı, ince seramik">Porselen</span>
+          Sunar...
+        </p>
+      </section>
+    </div>
+    <h3>İlçeleri</h3>
+    <!-- class birden fazla elemente verilebilirken, id tek elemente verilir -->
+    <ul>
+      <li>Kütahya</li>
+      <li>Altıntaş</li>
+      <li>Aslanapa</li>
+      <li title="Ayızona Antik Kenti burada bulunur.">Çavdarhisar</li>
+      <li class="favori">Domaniç</li>
+      <li>Dumlupınar</li>
+      <li class="favori">Emet</li>
+      <li id="memleket">Gediz</li>
+      <li>Hisarcık</li>
+      <li>Pazarlar</li>
+      <li>Simav</li>
+      <li>Şaphane</li>
+      <li class="favori">Tavşanlı</li>
+    </ul>
+  </body>
+</html>
