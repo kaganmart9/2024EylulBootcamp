@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* class selector */
+        .onemli{
+            border-left: 10px solid green;
+        }
+        /* listede secilen classtan sonra gelen tek */
+        .onemli+li{
+            border-left: 10px solid red;
+        }
+        /* listede seçilen classtan sonra gelen tüm itemler */
+        .onemli~li{
+            border-left: 10px solid cyan;
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Lorem, ipsum.</li>
+        <li>Culpa, dolorum.</li>
+        <li class="onemli">Possimus, maiores!</li>
+        <li>Nobis, dolores.</li>
+        <li class="onemsiz">Beatae, iure.</li>
+        <li>Veniam, minus?</li>
+        <li>Aliquam, sequi.</li>
+        <li>Ea, voluptates.</li>
+    </ul>
+    
+</body>
+</html>
