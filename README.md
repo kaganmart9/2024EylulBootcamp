@@ -52,3 +52,10 @@ This repository contains the daily progress of my web development bootcamp, wher
 - CSS3 Selector Types
 - HTML5 tags: div
 - Various CSS3 properties
+
+## Day 6
+**Concepts Learned:**
+- CSS3 Selector Types
+- CSS3 Background Properties (froested glass effect etc.)
+- CSS3 Font Family Types
+- Various CSS3 Properties
