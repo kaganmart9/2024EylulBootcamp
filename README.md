@@ -4,7 +4,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 
 ## Table of Contents
 
-- Day 1
+- ##Day 1
 - Day 2
 - Day 3
 - Day 4
