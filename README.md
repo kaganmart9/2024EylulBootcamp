@@ -9,6 +9,8 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Day 3
 - Day 4
 - Day 5
+- Day 6
+- Day 7
 
 ## Day 1
 
@@ -59,3 +61,11 @@ This repository contains the daily progress of my web development bootcamp, wher
 - CSS3 Background Properties (froested glass effect etc.)
 - CSS3 Font Family Types
 - Various CSS3 Properties
+
+## Day 7
+**Concepts Learned**
+- CSS3 Box Model
+- CSS3 Box Model Properties
+- Header Tag
+- CSS3 Gradients
+- Various CSS3 Attribute Selectors
