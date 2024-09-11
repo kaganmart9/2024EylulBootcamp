@@ -38,7 +38,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Anchor Links
 - Basic Search Engine Cloning
 - HTML5 tags : label, form, button, textarea, input
-- 
+
 ## Day 4
 
 **Concepts Learned:**
@@ -57,14 +57,16 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Various CSS3 properties
 
 ## Day 6
+
 **Concepts Learned:**
 - CSS3 Selector Types
-- CSS3 Background Properties (froested glass effect etc.)
+- CSS3 Background Properties (frosted glass effect etc.)
 - CSS3 Font Family Types
 - Various CSS3 Properties
 
 ## Day 7
-**Concepts Learned**
+
+**Concepts Learned:**
 - CSS3 Box Model
 - CSS3 Box Model Properties
 - Header Tag
@@ -72,7 +74,8 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Various CSS3 Attribute Selectors
 
 ## Day 8
-**Concepts Learned**
+
+**Concepts Learned:**
 - Float Property in CSS3
 - Float Clearance
 - Website layout with floats
