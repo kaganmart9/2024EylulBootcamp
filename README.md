@@ -4,14 +4,14 @@ This repository contains the daily progress of my web development bootcamp, wher
 
 ## Table of Contents
 
-- Day 1
-- Day 2
-- Day 3
-- Day 4
+- **[Day 1](#day-1)**<br>
+- **[Day 2](#day-2)**<br>
+- **[Day 3](#day-3)**<br>
+- **[Day 4](#day-4)**<br>
 - **[Day 5](#day-5)**<br>
-- Day 6
-- Day 7
-- Day 8
+- **[Day 6](#day-6)**<br>
+- **[Day 7](#day-7)**<br>
+- **[Day 8](#day-8)**<br>
 
 ## Day 1
 
