@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>So Called Element</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-size: 24px;
+        background-color: white;
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+      }
+      p {
+        text-align: justify;
+      }
+      p::first-letter {
+        font-size: 3em;
+        float: left;
+        line-height: 0.75;
+        font-weight: bold;
+      }
+      p::first-line {
+        text-decoration: underline;
+      }
+      p::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      main {
+        box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+        background: #fffef0;
+        max-width: 900px;
+        /*     y    x   eksenleri*/
+        margin: 40px auto 20px;
+        padding: 36px;
+        border-radius: 50px;
+      }
+      @media (max-width: 720px) {
+        main {
+          margin: 40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+        accusamus. Minus praesentium quo, culpa animi, impedit inventore
+        voluptas provident veritatis, quos distinctio aliquid eaque facilis
+        quaerat! Ratione voluptatum odit nesciunt.
+      </p>
+      <p>
+        Illo possimus unde minus quia quasi porro. Molestias nobis, eum esse
+        quis cupiditate provident optio, est animi nemo, laboriosam eligendi
+        nihil minus molestiae deleniti atque rem ea quod quia! Repellat.
+      </p>
+      <p>
+        Eius excepturi sed explicabo corporis tempora, quia doloremque quos
+        maxime reprehenderit exercitationem ad, veritatis blanditiis! Dolorem
+        iste voluptatum in dolores placeat sit suscipit est quisquam itaque
+        natus, tenetur cumque vel?
+      </p>
+      <p>
+        Ad illo sunt blanditiis exercitationem ex, tempora suscipit
+        consequuntur? Deleniti tenetur doloremque corrupti dolor quis magni
+        maxime obcaecati ducimus quam omnis asperiores sunt corporis nam, autem
+        dicta alias possimus itaque.
+      </p>
+    </main>
+  </body>
+</html>

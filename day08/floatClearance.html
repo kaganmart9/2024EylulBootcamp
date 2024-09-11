@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working with Float and Float Clearance</title>
+    <style>
+      .all {
+        border: 5px dashed black;
+      }
+      .box {
+        height: 50px;
+        width: 50px;
+        background-color: rgb(242, 177, 0);
+        color: white;
+        margin: 10px;
+        float: right;
+      }
+      div.box:nth-child(even) {
+        float: left;
+      }
+      /* Solution 1 : float'un kesilmesini istediğimiz float eden elemandan sonra boş bir div açıyoruz */
+      .temizlik {
+        clear: both;
+      }
+      /* modern solution with CSS3*/
+      .all::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div.all>div.box*12>{Box $} -->
+    <div class="all">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+      <div class="box">Box 4</div>
+      <div class="box">Box 5</div>
+      <div class="box">Box 6</div>
+      <div class="box">Box 7</div>
+      <div class="box">Box 8</div>
+      <div class="box">Box 9</div>
+      <div class="box">Box 10</div>
+      <div class="box">Box 11</div>
+      <div class="box">Box 12</div>
+      <!-- <div class="temizlik"></div> -->
+    </div>
+  </body>
+</html>
