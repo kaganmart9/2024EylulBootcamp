@@ -69,3 +69,12 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Header Tag
 - CSS3 Gradients
 - Various CSS3 Attribute Selectors
+
+## Day 8
+**Concepts Learned**
+- Float Property in CSS3
+- Float Clearance
+- Website layout with floats
+- Introduction to Media Query
+- Various Text Customization with CSS3
+- Pseudo Elements in CSS3
