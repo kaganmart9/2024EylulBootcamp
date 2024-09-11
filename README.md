@@ -11,6 +11,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Day 5(#day-5)
 - Day 6
 - Day 7
+- Day 8
 
 ## Day 1
 
@@ -66,7 +67,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 **Concepts Learned:**
 
 - CSS3 Selector Types
-- CSS3 Background Properties (froested glass effect etc.)
+- CSS3 Background Properties (frosted glass effect etc.)
 - CSS3 Font Family Types
 - Various CSS3 Properties
 
@@ -79,3 +80,14 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Header Tag
 - CSS3 Gradients
 - Various CSS3 Attribute Selectors
+
+## Day 8
+
+**Concepts Learned:**
+
+- Float Property in CSS3
+- Float Clearance
+- Website layout with floats
+- Introduction to Media Query
+- Various Text Customization with CSS3
+- Pseudo Elements in CSS3
