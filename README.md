@@ -8,13 +8,14 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Day 2
 - Day 3
 - Day 4
-- Day 5
+- Day 5(#day-5)
 - Day 6
 - Day 7
 
 ## Day 1
 
 **Concepts Learned:**
+
 - Introduction to HTML5
 - Basic HTML5 structure
 - Added an image to the site using HTML5.
@@ -23,6 +24,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 ## Day 2
 
 **Concepts Learned:**
+
 - Block and Inline tags of HTML5
 - Unordered and Ordered lists in HTML5
 - Description Lists in HTML5
@@ -32,15 +34,18 @@ This repository contains the daily progress of my web development bootcamp, wher
 ## Day 3
 
 **Concepts Learned:**
+
 - Entities of HTML5
 - Forms in HTML5
 - Anchor Links
 - Basic Search Engine Cloning
 - HTML5 tags : label, form, button, textarea, input
-- 
+-
+
 ## Day 4
 
 **Concepts Learned:**
+
 - SVGs
 - Frames in HTML5
 - Preformatted Texts
@@ -49,6 +54,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 ## Day 5
 
 **Concepts Learned:**
+
 - Inline, Internal and External CSS3
 - CSS3 comment line
 - CSS3 Selector Types
@@ -56,14 +62,18 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Various CSS3 properties
 
 ## Day 6
+
 **Concepts Learned:**
+
 - CSS3 Selector Types
 - CSS3 Background Properties (froested glass effect etc.)
 - CSS3 Font Family Types
 - Various CSS3 Properties
 
 ## Day 7
+
 **Concepts Learned**
+
 - CSS3 Box Model
 - CSS3 Box Model Properties
 - Header Tag
