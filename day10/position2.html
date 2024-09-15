@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        background-color: pink;
+        width: 100px;
+        height: 100px;
+        position: relative; /*making pika appear on div's bottom right*/
+      }
+      /*if parent has relative position, position of child will be stay at parent's position*/
+      .poke {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      .long {
+        position: relative;
+      }
+      .tree {
+        position: absolute;
+        left: calc(50% - 50px);
+        top: calc(50% - 50px);
+        z-index: -1;
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nisi
+      velit possimus quibusdam ea recusandae cum rem quasi accusantium
+      accusamus.
+    </p>
+    <p class="long">
+      <img class="tree" src="palm.png" height="100" />
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat amet
+      iure ducimus aliquam deserunt neque ipsam nisi vel perspiciatis cupiditate
+      incidunt, a quod voluptas minus earum libero laboriosam autem itaque
+      facilis voluptates soluta! Voluptatibus rem odit, quos eaque nihil iusto
+      aperiam nemo esse id quidem nulla excepturi libero voluptatem ab eligendi
+      veritatis sint quas sequi quo! Cupiditate quis explicabo voluptates sit
+      dolor eum necessitatibus placeat voluptas fugiat iure hic blanditiis
+      quisquam culpa facilis perferendis maxime animi, reprehenderit rerum porro
+      perspiciatis ullam? Accusamus maxime, tempore quam iste et pariatur odit
+      fugiat, quod quaerat placeat voluptate sit porro repellat doloremque sint
+      dignissimos animi nihil eveniet consequatur nulla. Dolor cupiditate ea et
+      qui nostrum vitae omnis numquam ratione harum distinctio pariatur
+      obcaecati, libero officia sequi optio, placeat voluptates consequuntur,
+      explicabo at hic. Eum consequatur labore, ab necessitatibus doloribus
+      dolorem pariatur! Iste consequuntur culpa hic animi iusto aliquid amet
+      quos aperiam, non earum odit eaque, veritatis corporis magnam qui debitis.
+      Maxime reprehenderit beatae hic cupiditate sequi, exercitationem
+      voluptatem, labore ab quo illum quod culpa sunt ipsum facilis? Soluta,
+      unde fugit. Optio magni nam nobis aliquid culpa! Eveniet suscipit ducimus
+      laborum dolorum. Assumenda voluptatum ex velit impedit sapiente sint
+      alias, tenetur veniam fugiat blanditiis aliquam exercitationem,
+      praesentium eveniet dolorem corrupti eum placeat natus magnam aspernatur
+      repellendus corporis obcaecati porro? A reprehenderit alias in maxime
+      consequatur aut nemo esse molestiae quo suscipit, labore cumque, deleniti
+      nam corrupti magni ipsam veritatis perferendis. Officia harum voluptas
+      veritatis sunt, suscipit, officiis magnam dicta a perspiciatis ex sequi
+      nihil amet quidem excepturi deleniti cum. Nostrum facilis odio quae
+      reiciendis excepturi aut autem itaque esse quod sint vel, enim, culpa
+      repellat deserunt sit illo deleniti! Magni aliquid vero ullam iusto quam
+      quaerat aspernatur odit officia error amet quas dolore illo earum corrupti
+      sit, itaque praesentium, consequuntur numquam, iure nesciunt? Soluta,
+      omnis.
+    </p>
+    <div class="box">
+      <img class="poke" src="pika.png" />
+    </div>
+  </body>
+</html>
