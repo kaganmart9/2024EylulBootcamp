@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists</title>
+    <style>
+      h4 {
+        margin-bottom: 0; /*clearing the margin*/
+      }
+      ul {
+        margin-top: 5px;
+      }
+      .style1 {
+        list-style: none;
+      }
+
+      .style2 {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .style3 {
+        list-style-type: upper-roman; /* changing ranking style*/
+      }
+      .style4 > li {
+        border: 1px solid black;
+      }
+      .style4 {
+        padding: 0;
+        list-style-position: inside; /*marker psition inside the border (default is outside)*/
+      }
+
+      .style5 {
+        list-style-image: url(pika.png);
+      }
+      .style6 > li::marker {
+        color: red; /*changing marker color*/
+        font-size: 2em;
+      }
+      ul.style7 {
+        list-style: none;
+        padding: 0;
+        border: 4px solid gainsboro;
+        border-radius: 15px;
+        overflow: hidden; /*taşmayı engelliyor*/
+      }
+      ul.style7 > li {
+        padding: 12px;
+        border-bottom: 4px solid gainsboro;
+      }
+      ul.style7 > li:last-child {
+        border-bottom: none;
+      }
+      ul.style7 > li:nth-child(2n) {
+        background-color: rgb(212, 228, 243);
+      }
+      /*hover sözde element*/
+      ul.style7 > li:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>Extravaganza Marker Specilization</h4>
+    <ul class="style7">
+      <li>Cag Kebab</li>
+      <li>Lahmacun</li>
+      <li>Doner</li>
+      <li>Manti</li>
+      <li>Hamburger</li>
+    </ul>
+
+    <h4>List without Marker</h4>
+    <ul class="style1">
+      <li>Cag Kebab</li>
+      <li>Lahmacun</li>
+      <li>Doner</li>
+      <li>Manti</li>
+      <li>Hamburger</li>
+    </ul>
+
+    <h4>Without Styles</h4>
+    <ul class="style2">
+      <li>Cag Kebab</li>
+      <li>Lahmacun</li>
+      <li>Doner</li>
+      <li>Manti</li>
+      <li>Hamburger</li>
+    </ul>
+
+    <h4>List Style Type</h4>
+    <ul class="style3">
+      <li>Cag Kebab</li>
+      <li>Lahmacun</li>
+      <li>Doner</li>
+      <li>Manti</li>
+      <li>Hamburger</li>
+    </ul>
+
+    <h4>Marker Style</h4>
+    <ul class="style4">
+      <li>Cag Kebab</li>
+      <li>Lahmacun</li>
+      <li>Doner</li>
+      <li>Manti</li>
+      <li>Hamburger</li>
+    </ul>
+
+    <h4>Marker Image</h4>
+    <ul class="style5">
+      <li>Cag Kebab</li>
+      <li>Lahmacun</li>
+      <li>Doner</li>
+      <li>Manti</li>
+      <li>Hamburger</li>
+    </ul>
+
+    <h4>Marker Color</h4>
+    <ul class="style6">
+      <li>Cag Kebab</li>
+      <li>Lahmacun</li>
+      <li>Doner</li>
+      <li>Manti</li>
+      <li>Hamburger</li>
+    </ul>
+
+    <h4>Standart</h4>
+    <ul>
+      <li>Cag Kebab</li>
+      <li>Lahmacun</li>
+      <li>Doner</li>
+      <li>Manti</li>
+      <li>Hamburger</li>
+    </ul>
+  </body>
+</html>
