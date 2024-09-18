@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions</title>
+    <style>
+      .kutu1 {
+        height: 10vh;
+        width: 20vw;
+        margin-bottom: 0.2rem;
+        background-color: crimson;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      .kutu1:hover {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(191, 191, 255);
+      }
+      .kutu1 .text {
+        position: absolute;
+        transition: opacity 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .kutu1:hover .text {
+        opacity: 0;
+      }
+      .kutu1 .hover-text {
+        opacity: 0;
+        transition: opacity 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .kutu1:hover .hover-text {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kutu1">
+      <div class="text">ABOUT ME</div>
+      <div class="hover-text">HAKKIMDA</div>
+    </div>
+    <div class="kutu1">
+      <div class="text">CONTACT</div>
+      <div class="hover-text">İLETİŞİM</div>
+    </div>
+    <div class="kutu1">
+      <div class="text">PORTFOLIO</div>
+      <div class="hover-text">PORTFÖY</div>
+    </div>
+    <div class="kutu1">
+      <div class="text">EDUCATION</div>
+      <div class="hover-text">EĞİTİM</div>
+    </div>
+    <div class="kutu1">
+      <div class="text">RESUME</div>
+      <div class="hover-text">ÖZGEÇMİŞ</div>
+    </div>
+  </body>
+</html>

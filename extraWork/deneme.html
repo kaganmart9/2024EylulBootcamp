@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DENEME</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+      }
+      header {
+        height: 10vh;
+        background-color: rgb(59, 55, 55);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+      }
+      .kutu1 {
+        height: 10vh;
+        width: 20vw;
+        margin: 0.2rem;
+        background-color: crimson;
+        transition: all 0.5s ease-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.5rem;
+      }
+      .kutu1:hover {
+        height: calc(100vh - 10vh);
+        background-color: #3498db;
+      }
+
+      .kutu1 .text {
+        position: absolute;
+        transition: opacity 0.5s ease-out;
+      }
+      .kutu1:hover .text {
+        opacity: 0;
+      }
+      .kutu1 .hover-text {
+        opacity: 0;
+        transition: opacity 0.5s ease-out;
+      }
+      .kutu1:hover .hover-text {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>My Website</header>
+    <nav>
+      <div class="kutu1">
+        <div class="text">ABOUT ME</div>
+        <div class="hover-text">DENEME</div>
+        <!--hover içeriği -->
+      </div>
+      <div class="kutu1">
+        <div class="text">CONTACT</div>
+        <div class="hover-text">İLETİŞİM</div>
+        <!--hover içeriği -->
+      </div>
+      <div class="kutu1">
+        <div class="text">PORTFOLIO</div>
+        <div class="hover-text">PORTFÖY</div>
+        <!--hover içeriği -->
+      </div>
+      <div class="kutu1">
+        <div class="text">EDUCATION</div>
+        <div class="hover-text">EĞİTİM</div>
+        <!--hover içeriği -->
+      </div>
+      <div class="kutu1">
+        <div class="text">RESUME</div>
+        <div class="hover-text">ÖZGEÇMİŞ</div>
+        <!--hover içeriği -->
+      </div>
+    </nav>
+  </body>
+</html>
