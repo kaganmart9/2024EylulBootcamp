@@ -12,6 +12,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 - **[Day 6](#day-6)**<br>
 - **[Day 7](#day-7)**<br>
 - **[Day 8](#day-8)**<br>
+- **[Day 9](#day-9)**<br>
 
 ## Day 1
 
@@ -91,3 +92,39 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Introduction to Media Query
 - Various Text Customization with CSS3
 - Pseudo Elements in CSS3
+
+## Day 9
+
+**Concepts Learnned:**
+
+- Importing Fonts
+- Various Font Attributes
+- CSS3 Various Link Attributes
+
+## Day 10
+
+**Concepts Learned:**
+
+- CSS3 Link Attributes
+- CSS3 Various Poisiton Attributes
+
+## Day 11
+
+**Concepts Learned:**
+
+- CSS Tables Complete
+
+## Day 12
+
+**Concepts Learned:**
+
+- CSS3 Unit Of Measurements Complete
+- CSS3 Transitions
+- CSS3 Translates
+
+## Day 13
+
+**Concepts Learned:**
+
+- CSS3 Border Attributes
+- CSS3 Flexbox Attributes

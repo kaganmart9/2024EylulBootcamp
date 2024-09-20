@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      .container {
+        bottom: 10px dashed black;
+        height: 400px;
+        display: flex;
+        text-align: center;
+      }
+      .row {
+        flex: 1;
+      }
+      .s1 {
+        background-color: rgb(20, 200, 255);
+      }
+      .s2 {
+        background-color: yellow;
+      }
+      .s3 {
+        background-color: green;
+      }
+      .s3:hover {
+        background-color: black;
+        color: aliceblue;
+      }
+      .s2:hover {
+        background-color: black;
+        color: aliceblue;
+      }
+      .s1:hover {
+        background-color: black;
+        color: aliceblue;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        background-color: aquamarine;
+      }
+      header:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Eşit Genişlikte Sütunlar</h1></header>
+    <div class="container">
+      <div class="row s1">Row 1</div>
+      <div class="row s2">Row 2</div>
+      <div class="row s3">Row 3</div>
+    </div>
+  </body>
+</html>
