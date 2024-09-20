@@ -13,6 +13,10 @@ This repository contains the daily progress of my web development bootcamp, wher
 - **[Day 7](#day-7)**<br>
 - **[Day 8](#day-8)**<br>
 - **[Day 9](#day-9)**<br>
+- **[Day 10](#day-10)**<br>
+- **[Day 11](#day-11)**<br>
+- **[Day 12](#day-12)**<br>
+- **[Day 13](#day-13)**<br>
 
 ## Day 1
 
