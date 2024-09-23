@@ -17,6 +17,8 @@ This repository contains the daily progress of my web development bootcamp, wher
 - **[Day 11](#day-11)**<br>
 - **[Day 12](#day-12)**<br>
 - **[Day 13](#day-13)**<br>
+- **[Day 14](#day-14)**<br>
+- **[Day 15](#day-15)**<br>
 
 ## Day 1
 
@@ -132,3 +134,18 @@ This repository contains the daily progress of my web development bootcamp, wher
 
 - CSS3 Border Attributes
 - CSS3 Flexbox Attributes
+
+## Day 14
+
+**Concepts Learned:**
+
+- CSS3 Template Design
+- CSS3 Grid Attributes
+
+## Day 15
+
+**Concepts Learned:**
+
+- Javascript Introduction
+- Javascript File Integration
+- DOM Manipulation
