@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        background-color: rgb(0, 16, 78);
+      }
+      #kutu {
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        font-weight: bold;
+        cursor: help;
+        border-radius: 1rem;
+      }
+      #kutu:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 0, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="kutu">100</div>
+    <script>
+      let k = document.getElementById("kutu");
+      let x = 100;
+      //creating a function named yap
+      function yap() {
+        x = x + 10;
+        k.textContent = x;
+        k.style.width = x + "px";
+        k.style.height = x + "px";
+      }
+      k.onclick = yap; //calling the function
+    </script>
+  </body>
+</html>

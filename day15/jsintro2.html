@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Regions</title>
+  </head>
+  <body>
+    <h1>Javascript Intro 2</h1>
+    <p>We can integrate Javascript into the HTML file with 3 different ways</p>
+
+    <!-- inside body tags -->
+    <script>
+      let x = 2 + 2;
+      document.write("<hr>");
+      document.write(x);
+    </script>
+
+    <!-- external file -->
+    <script src="script.js"></script>
+    <hr />
+    <!-- inline javascript -->
+    <button onclick="alert('WHY DID YOU CLICK')">Don't Click On Me</button>
+
+    <hr />
+    <button
+      id="button1"
+      onmouseenter="document.getElementById('button1').textContent = 'GOTCHA'"
+    >
+      STAY AWAY
+    </button>
+  </body>
+</html>

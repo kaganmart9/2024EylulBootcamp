@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Giriş</title>
+  </head>
+  <body>
+    <h1>Learning Javascript</h1>
+    <p></p>
+    <script>
+      //nesnelerin özelliklerine . operatörüyle erişiriz.
+      //alert("HEY THERE"); //alert pop-up için kullanılıyor.
+      let first_para = document.querySelector("p"); // creating a variable named first_para
+      first_para.textContent = "Changed the Paragraph Context"; //body içindeki p'nin contextini değiştiriyoruz.
+      first_para.style.color = "magenta"; //changed the color of first_para
+      document.body.style.background =
+        "linear-gradient(to left, orange, white)"; //changing root of dom tree with this
+    </script>
+  </body>
+</html>
