@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javacript Operators</title>
+    <style></style>
+  </head>
+  <body>
+    <script src="../ortak/ortak.js"></script>
+    <script>
+      yaz(4 + 4);
+      yaz("4" + 4); //string concatenation (same with python) (string output)
+      ciz(); //horizontal rule
+      ciz("falan filan devam"); //text + horizontal rule
+
+      // .operator is for accessing a object's properties.
+      yaz(document.title);
+      document.title = "Changed Title with JS";
+      yaz(document.title);
+
+      //SORU 1
+      var s1 = 5;
+      s1 *= s1;
+      yaz(s1);
+
+      //SORU 2
+      var s2 = "falanca" + 4 + 3;
+      yaz(s2);
+
+      //SORU 3
+      let s3 = "falanca" + 4 * 3;
+      yaz(s3);
+
+      //SORU 4
+      let s4 = "2" + 4 * 3;
+      yaz(s4);
+
+      //SORU 5
+      let s5 = ("2" + 4) * 3;
+      yaz(s5);
+
+      //SORU 6
+      var s6 = "2" * 3 + 4;
+      yaz(s6);
+    </script>
+  </body>
+</html>

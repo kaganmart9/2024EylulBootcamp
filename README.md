@@ -19,6 +19,7 @@ This repository contains the daily progress of my web development bootcamp, wher
 - **[Day 13](#day-13)**<br>
 - **[Day 14](#day-14)**<br>
 - **[Day 15](#day-15)**<br>
+- **[Day 16](#day-16)**<br>
 
 ## Day 1
 
@@ -149,3 +150,11 @@ This repository contains the daily progress of my web development bootcamp, wher
 - Javascript Introduction
 - Javascript File Integration
 - DOM Manipulation
+
+## Day 16
+
+**Concepts Learned:**
+
+- Javascript Mathematical Operators
+- Javascript Variable Types
+- Javascript String Concatenation
