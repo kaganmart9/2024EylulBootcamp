@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=VT323&display=swap");
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+#saat {
+  font-size: 12vw;
+  font-family: "Azeret Mono", monospace;
+  background-image: linear-gradient(
+    to right,
+    rgba(65, 7, 160, 0.958),
+    rgb(132, 37, 135)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: transparent;
+  box-shadow: 0px 0px 10px rgba(187, 1, 255, 0.2),
+    /* İç gölge */ 0px 0px 50px rgba(217, 30, 155, 0.5);
+}

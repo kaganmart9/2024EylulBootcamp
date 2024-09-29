@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Functions</title>
+  </head>
+  <body>
+    <script src="../ortak/ortak.js"></script>
+    <script>
+      /*
+        There is 4 types of functions
+        1.no parameters no value return
+        2.no parameters with value return
+        3.with parameter but no value return
+        4.with parameter and returns value
+        */
+
+      //without parameter and no value return
+      function ekranaSaatiYazdir() {
+        let suan = new Date();
+        ciz(suan.toLocaleString("tr"));
+      }
+      ekranaSaatiYazdir();
+
+      //no parameter with value return
+      function ayinGunu() {
+        let suan = new Date();
+        return suan.getDate();
+      }
+      let gun = ayinGunu();
+      ciz("Bugün ayın " + gun + ". günüdür");
+
+      // with parameter and no return value
+      //işçi fonk. aldığı renk koduyla arkaplanı boyar.
+      function arkaplaniboya(renk) {
+        document.body.style.background = renk;
+      }
+      arkaplaniboya("linear-gradient(to right, #333, #777)");
+
+      //return x+1
+      // like "f(x) = x + 1" in math
+      // with parameter and value return
+      function birFazlasi(x) {
+        return x + 1;
+      }
+
+      let sayi = 3;
+      sayi = birFazlasi(sayi);
+      ciz(sayi); // 4
+    </script>
+  </body>
+</html>
