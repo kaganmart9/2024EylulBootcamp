@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrays</title>
+  </head>
+  <body>
+    <script src="../ortak/ortak.js"></script>
+    <script>
+      //index =         0         1        2
+      let apartment = ["first", "second", "third"];
+      yaz("floors of apartment = " + apartment.length);
+      yaz("Elements of array = " + apartment.toString());
+
+      //Adding element to array : fourth
+      apartment.push("fourth");
+      yaz(apartment);
+
+      //reaching a spesific element of array :
+      yaz("3rd item of array : " + apartment[2]);
+
+      ////changing the element of an array :
+      apartment[1] = "changed";
+      yaz(apartment);
+    </script>
+  </body>
+</html>

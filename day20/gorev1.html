@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gorev</title>
+  </head>
+  <body>
+    <script src="../ortak/ortak.js"></script>
+    <script>
+      ciz();
+
+      let dizi = [4, 8, 15, 16, 23, 42];
+
+      ciz("dizi elemanları: " + dizi.toString());
+
+      dizi.unshift(10); //başa ekler
+      dizi.push(99); //sona ekler
+      ciz(" yeni dizi elemanları: " + dizi);
+
+      //2. indeksten başlayarak 3 adet sayı sil:
+      dizi.splice(2, 3);
+      ciz(" yeni dizi elemanları:" + dizi);
+
+      //3.indekse 77 koy:
+      dizi.splice(3, 0, 77);
+      ciz("yeni dizi elemanları: " + dizi);
+
+      //3. indeksi güncelle
+      dizi[2] = 66;
+      ciz("yeni dizi elemanları : " + dizi);
+
+      //başı sil ve silineni yazdır
+      yaz("başı: " + dizi.shift());
+      yaz("yeni dizi elemanları:" + dizi);
+
+      //sonu sil ve silineni yazdır
+      yaz("sonu:" + dizi.pop());
+      yaz("yeni dizi elemanları: " + dizi);
+    </script>
+  </body>
+</html>
