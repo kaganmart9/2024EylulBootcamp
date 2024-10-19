@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Element Creation</title>
+  </head>
+  <body>
+    <script>
+      //header creation
+      const baslik = document.createElement("h1");
+      baslik.textContent = "Bir Başlık";
+      document.body.append(baslik);
+
+      // p element creation
+      const parag = document.createElement("p");
+      parag.textContent = "some text as paragraph etc. ";
+
+      //oluşan elementi DOM ağacına eklememiz lazım
+      document.body.append(parag);
+
+      const guclu = document.createElement("strong");
+      guclu.textContent =
+        "Bu cümleyi pragrafın sonuna ekleyemeyeceğimi iddia ettiler.";
+      parag.append(guclu); //sona ekleme
+
+      const vurgulu = document.createElement("em");
+      vurgulu.textContent = "bilmiyorum ";
+      parag.prepend(vurgulu); //başa ekleme
+
+      const cizgi = document.createElement("hr");
+      baslik.after(cizgi);
+    </script>
+  </body>
+</html>
