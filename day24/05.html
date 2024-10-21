@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görev 5</title>
+  </head>
+  <body>
+    <script>
+      const body = document.querySelector("body"); // body elementine erişiyoruz
+
+      // 100 tane buton oluştur
+      for (let i = 0; i < 100; i++) {
+        const button = document.createElement("button");
+        button.textContent = "0";
+        body.appendChild(button);
+      }
+      const buttons = document.querySelectorAll("button"); // butonlara erişiyoruz
+
+      // her butona tıklandığında sayacı arttır
+      buttons.forEach((button) => {
+        button.addEventListener("click", function () {
+          let count = Number(button.textContent);
+          count++;
+          button.textContent = count;
+        });
+      });
+    </script>
+    <style>
+      body {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 10px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+      }
+    </style>
+  </body>
+</html>

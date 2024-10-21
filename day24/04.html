@@ -1,0 +1,25 @@
+<!-- GÖREV 4 = İçinde 1 yazan buton koy, her basışında değeri artsın. html üzerinden butondaki yazı 10 olursa tıklandığında 11,12 ,13 diye artacak. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görev 4</title>
+  </head>
+  <body>
+    <button id="btn">1</button>
+    <button id="btn2">1</button>
+    <script>
+      const btn = document.getElementById("btn"); // butona erişiyoruz
+      btn.addEventListener("click", () => {
+        btn.textContent = Number(btn.textContent) + 1; // butonda 1 ekle numberda olabilirdi parseInt de
+      });
+    </script>
+
+    <script>
+      btn2.onclick = function () {
+        this.textContent = Number(this.textContent) + 1;
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First One</title>
+  </head>
+  <body>
+    <!-- Görev 1 : html dökümanı oluştur. body elementine js yardımıyla 2 ile 2nin toplamını yazdır. -->
+
+    <script>
+      //yöntem 1 : ali kağan
+      let x = 2 + 2;
+      document.write(x);
+      document.write("<hr>");
+
+      //yöntem 2 : faruk7
+      document.body.innerHTML += "2+2 : " + (2 + 2);
+      document.write("<hr>");
+
+      //yöntem 3 : kodfun
+      let div = document.createElement("div");
+      div.textContent = 2 + 2;
+      div.style.background = "blue";
+      div.style.color = "white";
+      document.body.appendChild(div);
+    </script>
+  </body>
+</html>

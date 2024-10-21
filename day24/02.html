@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görev 2</title>
+  </head>
+  <body>
+    <!-- Görev : butona tıklanınca buton kaybolsun -->
+
+    <!-- yöntem 1 -->
+    <button
+      id="btn1"
+      onclick="document.getElementById('btn1').style.display = 'none'"
+    >
+      Beni Gizle
+    </button>
+
+    <!-- yöntem 2 -->
+    <button id="btn2">Beni gizleme,DOMdan kaldır</button>
+    <script>
+      const btn2 = document.querySelector("#btn2");
+      btn2.addEventListener("click", function () {
+        btn2.remove();
+      });
+    </script>
+
+    <!-- addeventlistener yerine onclick propertysi kullan ve bu propertye
+    atayacağın fonksiyonu arrow func olarak ata -->
+
+    <!-- yöntem 3 -->
+    <button id="btn3">Sil Beni</button>
+    <script>
+      const btn3 = document.getElementById("btn3");
+      btn3.ondblclick = () => btn3.remove();
+    </script>
+
+    <!-- yöntem 4 -->
+    <button id="btn4">But11</button>
+    <script>
+      document.getElementById("btn4").onclick = function (event) {
+        event.target.remove();
+      };
+    </script>
+
+    <!-- yöntem 5 arrow func -->
+    <button id="btn5">Jenson Button</button>
+    <script>
+      document.getElementById("btn5").onclick = (e) => event.target.remove();
+    </script>
+  </body>
+</html>

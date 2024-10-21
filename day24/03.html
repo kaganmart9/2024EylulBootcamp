@@ -1,0 +1,46 @@
+<!-- görev 3 : parametre olarak sayının karesini hesaplayan fonksiyonu arrow func yöntemi ile tanımla ve bir değişkende sakla. bu funcı kullanarak 1den 10a kadar olan sayıların karesi htmlde oluşturduğun ul'un içine li'ler halinde ekle. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görev 3</title>
+  </head>
+  <body>
+    <!-- Yöntem 1 -->
+    <ul id="liste1"></ul>
+    <script>
+      const kareHesapla1 = (sayi) => sayi ** 2;
+      const liste1 = document.getElementById("liste1");
+      for (let i = 1; i <= 10; i++) {
+        let x = kareHesapla1(i);
+        //liste1.innerHTML += "<li>" + x + "</li>";
+        liste1.innerHTML += `<li>${x}</li>`;
+      }
+    </script>
+
+    <!--Yöntem 2-->
+    <ul id="liste2"></ul>
+    <script>
+      const karesiAl = (x) => Math.pow(x, 2);
+      const liste2 = document.getElementById("liste2");
+
+      for (let i = 1; i <= 10; i++) {
+        liste2.innerHTML += "<li>" + karesiAl(i) + "</li>";
+      }
+    </script>
+
+    <!-- Yöntem 3 -->
+    <ul id="liste3"></ul>
+    <script>
+      const kareHesapla = (x) => x ** 2;
+      const ul3 = document.getElementById("liste3");
+
+      for (let i = 1; i <= 10; i++) {
+        const li = document.createElement("li");
+        li.textContent = kareHesapla(i);
+        ul3.appendChild(li);
+      }
+    </script>
+  </body>
+</html>
