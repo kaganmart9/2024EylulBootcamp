@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.3/slate/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5 d-flex justify-content-center">To-Do Web App</h1>
+      <form class="row mt- gy-2 gx-3 align-items-center">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            id="task"
+            placeholder="Task"
+          />
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-lg btn-primary">Add</button>
+        </div>
+      </form>
+      <div id="todos" class="mt-4 todos">
+        <div
+          class="row mb-4 border border-secondary rounded-4 py-3 px-2 mx-0 bg-primary"
+        >
+          <div class="col-auto">
+            <input class="check-size" type="checkbox" checked />
+          </div>
+          <div class="col-auto ps-0 d-flex align-items-center lead">
+            Yürüyüş Yap
+          </div>
+        </div>
+        <div
+          class="row mb-4 border border-secondary rounded-4 py-3 px-2 mx-0 bg-primary"
+        >
+          <div class="col-auto">
+            <input class="check-size" type="checkbox" />
+          </div>
+          <div class="col-auto ps-0 d-flex align-items-center lead">
+            Faturaları Öde
+          </div>
+        </div>
+        <div
+          class="row mb-4 border border-secondary rounded-4 py-3 px-2 mx-0 bg-primary"
+        >
+          <div class="col-auto">
+            <input class="check-size" type="checkbox" checked />
+          </div>
+          <div class="col-auto ps-0 d-flex align-items-center lead">
+            Vitaminleri Al
+          </div>
+        </div>
+        <div
+          class="row mb-4 border border-secondary rounded-4 py-3 px-2 mx-0 bg-primary"
+        >
+          <div class="col-auto">
+            <input class="check-size" type="checkbox" />
+          </div>
+          <div class="col-auto ps-0 d-flex align-items-center lead">
+            Projeyi Tamamla
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- Geliştirmeler : 
+ ekran geniş olursa içeriğin genişliğini sabit tut (max-width)
+ form'u large yap (bootstrap-sizing)
+ ekle yazısı yerine belki font-awesome kullanılabilir
+ eğer hiçbir görev yoksa "henüz görev eklenmemiş" gibibir şey yazabilir -->
